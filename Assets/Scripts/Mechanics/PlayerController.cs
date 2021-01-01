@@ -33,7 +33,8 @@ namespace Platformer.Mechanics
         /*internal new*/ public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
-        public float walkSpeed = 1f;
+        // Multiplier for x motion.
+        public float walkSpeed = 1.5f;
 
         bool jump;
         Vector2 move;
